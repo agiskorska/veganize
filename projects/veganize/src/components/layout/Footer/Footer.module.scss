@@ -1,0 +1,19 @@
+@import '../../../styles/settings.scss';
+
+
+.root{
+    width: 8%;
+    height: 100vh;
+    padding: 2%;
+    position: fixed;
+    right: 0%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 2%;
+}
+
+.icon {
+    color: white;
+}

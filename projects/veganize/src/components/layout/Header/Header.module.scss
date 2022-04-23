@@ -1,0 +1,21 @@
+@import '../../../styles/settings.scss';
+
+.root {
+    width: 100%;
+    height: fit-content;
+    line-height: 0.8;
+    background-image: url('../../../assets/images/background.png');
+    background-size: 100vw;
+    min-height: 100vh;
+    position: relative;
+    z-index: -1;
+    background-repeat: no-repeat;
+
+    
+}
+
+.image {
+    position: absolute;
+    width: 40%;
+    
+}

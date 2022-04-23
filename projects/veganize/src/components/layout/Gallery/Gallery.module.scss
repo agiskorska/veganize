@@ -1,0 +1,28 @@
+@import '../../../styles/settings.scss';
+
+.root{
+    width: 100%;
+    height: 100vh;
+    background-color: $yellowElements;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.section{
+    padding: 0 2%;
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.text{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

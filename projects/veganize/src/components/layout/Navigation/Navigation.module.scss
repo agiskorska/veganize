@@ -1,0 +1,60 @@
+@import '../../../styles/settings.scss';
+
+.root {
+    width: 30px;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    
+}
+
+.logo {
+    height: 100%;
+    width: 50px;
+}
+
+.navlinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    
+}
+
+.navlink {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $navFontColor;
+    padding: 0 8%;
+    text-orientation: sideways;
+    writing-mode: vertical-rl;
+    -moz-transform: scale(-1,-1);
+    -webkit-transform: scale(-1,-1);
+    -o-transform: scale(-1,-1);
+    -ms-transform: scale(-1,-1);
+    transform: scale(-1,-1);
+
+}
+
+.selected {
+    color: black;
+}
+
+@media (max-width: 786px) {
+
+    .logo{
+        display: none;
+    }
+
+    .navlinks {
+        
+    }
+    .navlink{
+        padding: 0 5%;
+        background-color: rgba(0,0,0,0);
+    }
+
+}
