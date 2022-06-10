@@ -42,15 +42,23 @@
 .selected {
     color: black;
 }
+@media (max-width: 1000px) {
 
-@media (max-width: 786px) {
-
-    .logo{
-        display: none;
-    }
 
     .navlinks {
-        
+    }
+    .navlink{
+        font-size: 20px;
+        padding: 0 5%;
+        background-color: rgba(0,0,0,0);
+    }
+
+}
+@media (max-width: 786px) {
+
+
+    .navlinks {
+        font-size: 20px;
     }
     .navlink{
         padding: 0 5%;

@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './Navigation.module.scss' 
-import logo from '../../../assets/images/logo.png'
 import { HashLink as Link } from 'react-router-hash-link'
 
 const Navigation = () => {
